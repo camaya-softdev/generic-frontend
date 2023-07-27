@@ -5,7 +5,7 @@ WORKDIR /app
 COPY /app/generic-front/entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
 
-ADD ./frontend/react-app .
+ADD ./app/generic-front .
 
 
 RUN npm i -g vite

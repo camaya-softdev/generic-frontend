@@ -9,7 +9,7 @@ services:
     container_name: generic-react
     build:
       context: ./
-      dockerfile: ./frontend/Dockerfile
+      dockerfile: ./app/Dockerfile
     volumes:
       - ./app/generic-front:/app
     ports:
